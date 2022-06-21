@@ -24,19 +24,9 @@
     * `opacity` - Sets opacity for the element. Value ranges from 0.0 to 1.0
     * `box-shadow` - Sets the shadow for an element. `box-radius: offsetX offsetY blurRadius spreadRadius color`
 
-## How To Center A Div Horizontally
-
-```css
-div {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-```
-
 ## Thoughts:
 
-* CSS is so powerful
+* `linear-gradient` and `box-shadow` offer so much flexibility. Adding box shadows back in 2012 was so much pain
 
 ## Link to Work
 
