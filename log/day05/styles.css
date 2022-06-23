@@ -1,0 +1,57 @@
+body {
+  margin: 0 0;
+  padding: 0 0;
+  min-width: 200px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1, p, form {
+  margin: auto auto;
+  color: white;
+  background-color: #1b1b32;
+  padding: 10px 10px;
+}
+
+form {
+  padding: 30px 40px;
+}
+
+label, input, select, textarea {
+  display: block;
+  text-align: left;
+  width: 100%;
+  font-family: 'Ubuntu';
+  height: 25px;
+  margin:0px 0px;
+  font-size: 16px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  text-align: center;
+  background-color: #37af65;
+  border: 1px solid #37af65;
+  display: block;
+  height: 40px;
+  color: white;
+}
+
+textarea {
+  height: 100px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+label span {
+  font-size: 12px;
+}
