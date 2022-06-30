@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 97vw;
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #e5e5e5;
+  border-radius: 0.5rem;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+header {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+header p {
+  margin-top: 30px;
+}
+
+figure {
+  width: 90vw;
+  margin: 0 auto;
+  background-color: white;
+  padding: 10px;
+}
+
+figure img,
+figure figcaption {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figure figcaption {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+section {
+  width: 60vw;
+  margin: 0 auto;
+  text-align: left;
+}
+
+section h3 {
+  margin: 3rem auto 3rem auto;
+}
+
+.timeline li {
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+.timeline .year {
+  font-weight: bold;
+}
+
+.timeline .year::after {
+  content: " - ";
+}
+
+section blockquote {
+  font-style: italic;
+}
+
+section blockquote p {
+  margin-bottom: 2rem;
+}
+
+footer h3 {
+  padding: 30px 30px;
+}
